@@ -25,5 +25,5 @@ fn num(number: u32, word: &str) {
 
 fn add(a: i32, b: i32) -> i32 {
     // function that return value(using -> data type)
-    return a + b;
+    a + b
 }

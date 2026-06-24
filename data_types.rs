@@ -41,7 +41,12 @@ fn main() {
     words.push_str(" is a dynamic string"); // editing a string
 
     println!("var word said : {}", words);
+
+    const NUM : u32 = 3;
     
+    // Vector 
+    let mut v : Vec<_> = vec![1, 2, 3];
+
     let str_this: String = String::from("Hello, Dunia");
     let sliceof_str : &str = &str_this;
     println!("this is slice value : {}", sliceof_str);

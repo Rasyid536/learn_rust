@@ -43,11 +43,14 @@ fn main() {
     println!("var word said : {}", words);
 
     const NUM : u32 = 3;
+    println!("a constant{}", NUM);
     
     // Vector 
     let mut v : Vec<_> = vec![1, 2, 3];
+    println!("a Vector{:?}",v);
 
     let str_this: String = String::from("Hello, Dunia");
     let sliceof_str : &str = &str_this;
     println!("this is slice value : {}", sliceof_str);
 }
+
